@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: root
+    password: Ntdh123
+    url: jdbc:mysql://172.20.20.8:3306/AccessGateWay?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  server:
+    port: 1111
+
+mybatis:
+  type-aliases-package: com.rc.demo722.entity
+  configuration:
+    call-setters-on-nulls: true
