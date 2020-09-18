@@ -2,7 +2,7 @@ package com.rc.demo722.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import scala.collection.immutable.List;
+//import scala.collection.immutable.List;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.ParameterBuilder;
 import springfox.documentation.builders.PathSelectors;
